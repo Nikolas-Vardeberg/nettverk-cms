@@ -2,7 +2,7 @@ import { Globe, Browsers, Compass, SquareHalfBottom, Article, ChalkboardTeacher 
 
 export const deskStructure = (S: any, context: any) =>
   S.list()
-    .title('Vertio Studio')
+    .title('Nettverk Studio')
     .items([
       // PAGES ------------------
       S.listItem()
