@@ -38,7 +38,7 @@ export default defineType({
       title: 'Sections',
       group: "page",
       of: [
-       // defineArrayMember({ type: "Image" }),
+          defineArrayMember({ type: "image" }),
       ],
     }),
   ],
