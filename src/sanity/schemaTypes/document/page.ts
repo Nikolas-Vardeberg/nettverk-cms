@@ -27,6 +27,12 @@ export default defineType({
       group: "page",
     }),
     defineField({
+      type: "string",
+      name: "title",
+      title: "Title",
+      group: "page",
+    }),
+    defineField({
       type: 'array',
       name: 'sections',
       title: 'Sections',
